@@ -1,0 +1,14 @@
+[package]
+name = "rusty_lmdb"
+version = "0.1.0"
+authors = ["Alastair Pharo <me@asph.dev>"]
+edition = "2018"
+
+[dependencies]
+lazy_static = "1.4.0"
+rutie = "0.7.0"
+rkv = "0.9.7"
+
+[lib]
+name = "rutie_ruby_example"
+crate-type = ["dylib"]
